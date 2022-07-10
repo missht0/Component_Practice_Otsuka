@@ -1,0 +1,43 @@
+.Poster {
+  margin-top: 10rem;
+  width: 100%;
+  height: 40rem;
+  display: flex;
+  flex-direction: row;
+
+  & > .m-lt {
+    width: 50%;
+    height: 100%;
+
+    img {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+  }
+
+  & > .m-rt {
+    width: 50%;
+    height: 100%;
+
+    & > .sc-list12 {
+      width: 100%;
+      height: 100%;
+      background-color: #80808017;
+
+      .sc-title {
+        display: none;
+      }
+
+      .m-item {
+        height: 100%;
+
+        .m-cnt-g2 {
+          height: 70%;
+          width: 80%;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
